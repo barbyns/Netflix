@@ -5,8 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import Again from './components/Again'
 import HarrySpotter from './components/HarrySpotter'
-import Error from './components/Error'
-
+import Account from './components/Account'
 
 
 function App() {
@@ -17,7 +16,7 @@ function App() {
     <Galleria/>
     <Again galleryTitle="The Lord of the Rings" />
     <HarrySpotter/>
-    <Error/>
+    <Account/>
   </main>
   <MyFooter/>
   </div>

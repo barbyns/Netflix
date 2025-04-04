@@ -16,8 +16,8 @@ const MyNav = function (props){
             <Nav.Link href="#pricing">Movies</Nav.Link>
           </Nav>
           <Nav className="ms-auto">
-          <Nav.Link href="#features">Kids</Nav.Link>
-          <NavDropdown title="Dropdwn" id="basic-nav-dropdown">
+          <Nav.Link href="#features"></Nav.Link>
+          <NavDropdown title="KIDS" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Settings</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Profile </NavDropdown.Item>
           </NavDropdown>
