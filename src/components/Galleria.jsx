@@ -7,7 +7,7 @@ function Galleria({ searchTitle, galleryTitle }) {
   const [loaded, setLoaded] = useState(false);
 
   const fetchMovies = () => {
-    fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${searchTitle}`)
+    fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=Star Wars`)
       .then((res) => res.json())
       .then((data) => {
         if (data.Search) {
