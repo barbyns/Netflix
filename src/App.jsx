@@ -7,6 +7,7 @@ import Again from './components/Again'
 import HarrySpotter from './components/HarrySpotter'
 import Account from './components/Account'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import MovieDetails from './components/MovieDetails'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <Galleria/>
     <Again galleryTitle="The Lord of the Rings" />
     <HarrySpotter/>
+    <MovieDetails/>
   </>
 }/>
 </Routes>
