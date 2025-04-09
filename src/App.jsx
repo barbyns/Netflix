@@ -6,20 +6,30 @@ import './index.css';
 import Again from './components/Again'
 import HarrySpotter from './components/HarrySpotter'
 import Account from './components/Account'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return(
+    <BrowserRouter>
     <div className="d-flex flex-column min-vh-100 bg-dark">
        <MyNav tema="dark"/>
   <main className="flex-grow-1">
+    <div className='=flex-grow-1'>
+    <Routes>
+  <Route path="/" element={
+  <>
     <Galleria/>
     <Again galleryTitle="The Lord of the Rings" />
     <HarrySpotter/>
-    <Account/>
+  </>
+}/>
+</Routes>
+    </div>
   </main>
   <MyFooter/>
   </div>
+  </BrowserRouter>
   );
 }
 
